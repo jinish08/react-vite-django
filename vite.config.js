@@ -8,12 +8,12 @@ export default defineConfig({
       '/api': {
         target: 'https://jayneet639.pythonanywhere.com',
         changeOrigin: true,
-        // ws: true,
+        ws: true,
       },
       '/users': {
         target: 'https://jayneet639.pythonanywhere.com',
         changeOrigin: true,
-        // ws: true,
+        ws: true,
       },
     },
     
