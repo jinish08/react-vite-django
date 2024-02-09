@@ -7,12 +7,12 @@ export default defineConfig({
     proxy: {
       '/api': {
         target: 'https://jayneet639.pythonanywhere.com',
-        changeOrigin: false,
+        changeOrigin: true,
         // ws: true,
       },
       '/users': {
         target: 'https://jayneet639.pythonanywhere.com',
-        changeOrigin: false,
+        changeOrigin: true,
         // ws: true,
       },
     },
